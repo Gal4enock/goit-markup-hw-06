@@ -318,7 +318,6 @@ footer .social-links-list{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-left: 29px;
 }
 .sign-button:hover,
 .sign-button:focus {
@@ -329,6 +328,7 @@ footer .social-links-list{
 .send-item-svg {
     fill: currentColor;
 }
+
 .sign-form-input {
     height: 50px;
     width: 358px;
@@ -340,6 +340,7 @@ footer .social-links-list{
     line-height: 1.25;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+    
 }
 .send-item-svg:hover,
 .send-item-svg:focus {
