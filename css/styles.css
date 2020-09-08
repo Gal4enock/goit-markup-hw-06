@@ -333,9 +333,6 @@ footer .social-links-list{
 .sign {
     display: flex;
 }
-.sign {
-    fill: var(--accent-color);
-}
 .sign-form-input {
     height: 50px;
     width: 358px;
@@ -348,8 +345,10 @@ footer .social-links-list{
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
-
-
+.send-item-svg:hover,
+.send-item-svg:focus {
+    fill: var(--accent-color);
+}
 /* позиционирование Преимуществ */
 .advant {
     padding-bottom: 0px;  
