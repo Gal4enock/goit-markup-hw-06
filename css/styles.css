@@ -316,6 +316,10 @@ footer .social-links-list{
     line-height: 1.875;
     letter-spacing: 0.06em;
     fill: var(--other-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 29px;
 }
 
 .sign {
