@@ -321,9 +321,20 @@ footer .social-links-list{
     justify-content: center;
     padding-left: 29px;
 }
-
+.sign-button:hover,
+.sign-button:focus {
+    background-color: var(--other-color);
+    color: var(--accent-color);
+    fill: var(--accent-color);
+}
+.send-item-svg {
+    fill: currentColor;
+}
 .sign {
     display: flex;
+}
+.sign {
+    fill: var(--accent-color);
 }
 .sign-form-input {
     height: 50px;
