@@ -310,7 +310,6 @@ footer .social-links-list{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     color: var(--other-color);
-    margin-top: 36px;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.875;
@@ -330,9 +329,6 @@ footer .social-links-list{
 .send-item-svg {
     fill: currentColor;
 }
-.sign {
-    display: flex;
-}
 .sign-form-input {
     height: 50px;
     width: 358px;
@@ -348,6 +344,9 @@ footer .social-links-list{
 .send-item-svg:hover,
 .send-item-svg:focus {
     fill: var(--accent-color);
+}
+.footer-sign-form {
+    display: flex;
 }
 /* позиционирование Преимуществ */
 .advant {
@@ -670,7 +669,6 @@ header {
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
-    position: relative;
     margin-top: 18px;
 }
 .form {
@@ -715,6 +713,10 @@ header {
     display: block;
     fill: var(--title-text-color);
     position: absolute;
-    top: 27px;
-    left: 10px;
+    left: 15px;
+    top: 50%;
+    transform: translateX(-50%)
+}
+.input-svg {
+    position: relative;
 }

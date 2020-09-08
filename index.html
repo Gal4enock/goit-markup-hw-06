@@ -269,13 +269,11 @@
         </section>
         <!-- Подписывайтесь -->
         <section class="footer-item sign">
-            <div>
             <h2 class="footer-link-title">Подпишитесь на рассылку</h2>  
             <form action="" class="footer-sign-form">
                 <input type="email" class="sign-form-input" name="mail" placeholder="E-mail">
+                <button type="submit" class="sign-button">Подписаться <svg class="send-item-svg" height="24" weight="24" ><use href="./img/sprite.svg#icon-send"></use></svg></button>
             </form>
-        </div>
-            <button type="submit" class="sign-button">Подписаться <svg class="send-item-svg" height="24" weight="24" ><use href="./img/sprite.svg#icon-send"></use></svg></button>
         </section>
     </div>
     </footer>
@@ -290,8 +288,10 @@
             <h3 class="form-title">Оставьте свои данные, мы вам перезвоним</h3>
             <div class="form-field">
                 <label for="name" class="form-lable">Имя</label>
+            <div class="input-svg">
                 <input type="text" class="form-input" name="name" id="name"> 
-                <svg class="form-item-svg" height="12" width="12" ><use href="./img/sprite.svg#icon-modalname"></use></svg>
+                <svg class="form-item-svg" height="12" width="12" ><use href="./img/sprite.svg#modalname"></use></svg>
+            </div>
             </div>
             <div class="form-field">
                 <label for="tel" class="form-lable">Телефон</label>
